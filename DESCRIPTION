@@ -18,5 +18,6 @@ Imports:
     lubridate,
     purrr,
     stringr,
-    readr
+    readr,
+    sf
 RoxygenNote: 6.1.1

@@ -1,6 +1,7 @@
 
 # USe this function to clean up the returned calls from WSPD
 clean_up_dates <- function(df){
+
 	df %>%
 		dplyr::mutate(date = stringr::str_trim(date, side = "both")) %>%
 		dplyr::mutate(time = stringr::str_trim(time, side = "both")) %>%

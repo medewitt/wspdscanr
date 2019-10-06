@@ -14,3 +14,24 @@
 #' @source \url{http://www.cityofws.org/crimestats/}
 
 "wspd_incidents"
+
+#' Ward Centers
+#' @description The centers of the Wards in Winston-Salem
+#' @format a dataframe with 12 rows and 4 columns:
+#' \describe{
+#'   \item{Ward}{The name of the ward}
+#'   \item{lon}{Type of Call}
+#'   \item{lat}{Where the incident occured}
+#'   \item{geometry}{Date}
+#'    ...
+#' }
+#' @source \url{http://www.cityofws.org}
+
+"ward_centers"
+
+#' Ward Centers
+#' @description The shapefile for the Wards of Winston-Salem
+#' @format an sf object
+#' @source \url{http://www.cityofws.org}
+
+"ward_map"
