@@ -4,3 +4,4 @@
 ^LICENSE\.md$
 ^\.travis\.yml$
 ^Makefile$
+^init.R$
