@@ -20,6 +20,7 @@ use_make()
 use_make()
 
 
+
 # package actual ----------------------------------------------------------
 
 use_package("dplyr")
@@ -27,4 +28,5 @@ use_package("httr")
 use_package("lubridate")
 use_package("purrr")
 use_package("stringr")
+use_package("readr")
 usethis::use_pipe()

@@ -1,4 +1,5 @@
 
+# USe this function to clean up the returned calls from WSPD
 clean_up_dates <- function(df){
 	df %>%
 		dplyr::mutate(date = stringr::str_trim(date, side = "both")) %>%
@@ -10,3 +11,4 @@ clean_up_dates <- function(df){
 		dplyr::mutate(incident_date_time = lubridate::ymd_hm(paste(incident_date, incident_time))) %>%
 		dplyr::select(-date, - time)
 }
+
